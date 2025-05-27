@@ -133,10 +133,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Julien."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    intro: ""
+    title: "Julien Henry"
+    subtitle: "Software Developer" 
+    content: "Data Science and Statistics"
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -163,19 +163,18 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      
+      I have a degree in engineering and statistics, and I worked in startups and research centers. I follow the good practices of software craftsmanship in order to deliver a code that is not only functional, but also clear, simple, maintainable and well documented.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      --------------------
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are the main languages I work with:"
       items:
-        - "HTML"
-        - "CSS"
+        - "R"
+        - "SQL"
+        - "Python (numpy, pandas, scikit-learn, tensorflow, pytorch)"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
 
   # Experience
   experience:
@@ -287,7 +286,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -376,7 +375,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com

@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "R Developer | JH"
 theme: hugo-profile
 
 outputs:
@@ -59,10 +59,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  # title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  # favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -114,9 +114,9 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    # showBrandLogo: true # Show brand logo in nav bar | default is true
+    # brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -135,19 +135,19 @@ params:
     enable: true
     intro: ""
     title: "Julien Henry"
-    subtitle: "Software Developer" 
-    content: "Data Science and Statistics"
-    image: /images/hero.svg
+    subtitle: "R Developer" 
+    content: "Data pipelines, analysis & visualization specialist."
+    image: /images/JH.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
       newPage: false
-    socialLinks:
+    # socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://example.com
@@ -161,24 +161,22 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
-    content: |-
-      
-      I have a degree in engineering and statistics, and I worked in startups and research centers. I deliver the best results by working in an agile, collaborative way and adhering to the best practices of software craftsmanship.
+    # image: "/images/JH.jpg"
+    content: |-    
+      I worked 5 years in German startups (Monedo, Hawa Dawa) and 3 years at French research institute INRAE.
 
       --------------------
     skills:
       enable: true
-      title: "Here are the main languages I work with:"
+      title: "Here are the main tools I have worked with:"
       items:
-        - "R"
-        - "SQL"
-        - "Python (numpy, pandas, scikit-learn, tensorflow, pytorch)"
-        - "JavaScript"
+        - "data.table"
+        - "ggplot2 & plotly"
+        - "rmarkdown & quarto"
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
@@ -243,7 +241,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:

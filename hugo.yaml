@@ -309,7 +309,7 @@ params:
     items:
       - title: Regex speed
         content: A small experiment to compare regex speed between R v.4 and R v.3, using Docker.
-        image: /images/projects/profile.png
+        image: /images/projects/regex.png
         featured:
           name: Read
           link: https://ju-henry.quarto.pub/regex-speed/

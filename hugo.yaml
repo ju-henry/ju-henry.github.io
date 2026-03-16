@@ -316,6 +316,7 @@ params:
         badges:
           - "R"
           - "microbenchmark"
+          - "Quarto"
           - "Docker"
         links:
           - icon: fab fa-github
@@ -326,7 +327,7 @@ params:
             #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
 
       - title: Homicide rates
-        content: A visualization of the number of homicides in Europe over 30 years, built using R and Javascript.
+        content: A visualization of the number of homicides in Europe over 30 years.
         image: /images/projects/map_homicides.png
         featured:
           name: View
@@ -339,19 +340,21 @@ params:
           - icon: fab fa-github
             url: https://github.com/ju-henry/homicides
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: JSON parsers
+        content: A small experiment to compare the speed of some tools to parse JSON files.
+        image: /images/projects/json.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Read
+          link: https://ju-henry.quarto.pub/json-parser-speed/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "R"
+          - "Python"
+          - "Bash"
+          - "Quarto"
+          - "Docker"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/ju-henry/JSONparser
 
   #Contact
   contact:

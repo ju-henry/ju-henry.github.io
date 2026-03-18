@@ -136,8 +136,8 @@ params:
     intro: ""
     title: "Julien Henry"
     subtitle: "R Developer" 
-    content: "Data pipelines, analysis & visualization."
-    image: /images/JH.jpg
+    content: "Data pipelines, analysis & visualization. \n\n Based in France."
+    # image: /images/JH.jpg
     bottomImage:
       enable: false
     # roundImage: true # Make hero image circular | default false
